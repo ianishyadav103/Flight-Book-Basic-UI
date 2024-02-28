@@ -1,0 +1,31 @@
+.bookingelement {
+    padding: 10px 30px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bookingelement>div>span {
+    margin: 0px 20px;
+    font-size: larger;
+    font-family: monospace;
+}
+.bookingelement>div {
+   display: flex;
+   justify-content: space-evenly;
+   width: 100%;
+}
+
+.bookflightname {
+    display: block;
+    font-size: x-large;
+    background-color: rgb(181, 237, 39);
+    width: max-content;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
